@@ -6,7 +6,7 @@ services:
     volumes:
       - ./app:/var/www/html
   postgres:
-    image: postgres:14.7-alpine3.17
+    image: postgres:14.10-alpine3.19
     environment:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: passw@rd
